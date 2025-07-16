@@ -31,12 +31,12 @@ import cli
 
 ##### CONSTANTS ################################################################
 
-SYSLOG = '10.0.0.1'  # Syslog IP address string, empty string disables syslog
-LOGAPI = 'http://10.0.0.1:8080/log'  # URL to log API, empty string disables
+SYSLOG = '10.250.252.1'  # Syslog IP address string, empty string disables syslog
+LOGAPI = 'http://10.250.252.1:8081/log'  # URL to log API, empty string disables
 
 # JSON is a string with URL of the JSON encoded DATA object as specified below.
 # Empty string disables downloading of external device data.
-JSON = 'http://10.0.0.1:8080/data'
+JSON = 'http://10.250.252.1:8081/data'
 
 # DATA is a list of dicts that defines device data. To specify device defaults,
 # omit the key named 'stack' from one dict. Empty list disables the internal

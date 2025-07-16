@@ -1,0 +1,16 @@
+[
+    {
+        "base_url": "http://10.250.252.1:8081/file/",
+        "version": "17.15.3",
+        "install": "./uploaded/cat9k_iosxe.17.15.03.SPA.bin",
+        "save": true,
+        "cli": "int vlan 1\nip address dhcp\nusername admin priv 15 secret 0 cisco123\nenable secret cisco123\naaa new-model\naaa authen def login local\naaa author exec def local\naaa session-id common"
+    },
+    {
+        "version": "17.15.3",
+        "install": "./uploaded/cat9k_iosxe.17.15.03.SPA.bin",
+        "stack": {
+            "1": "FJB2331A0D1"
+        }
+    }
+]

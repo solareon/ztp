@@ -1,0 +1,26 @@
+[
+    {
+        "logbuf": "\n*** Running downloaded_script.py ***\nPlatform serial number(s): FJB2331A0D1\nPlatform software version: 17.9.4a\nDownloading http://10.250.252.1:8081/data...\nChecking http://10.250.252.1:8080/file/uploaded/cat9k_iosxe.17.15.03.SPA.bin\n%Error opening http://10.250.252.1:8080/file/uploaded/cat9k_iosxe.17.15.03.SPA.bin (No such file or directory)",
+        "version": "17.9.4a",
+        "serial": "FJB2331A0D1",
+        "status": "Failed",
+        "ip": "10.250.252.100",
+        "time": "07/14/25 12:53:05"
+    },
+    {
+        "logbuf": "\n*** Running downloaded_script.py ***\nPlatform serial number(s): FJB2331A0D1\nPlatform software version: 17.9.4a\nDownloading http://10.250.252.1:8081/data...\nChecking http://10.250.252.1:8081/file/uploaded/cat9k_iosxe.17.15.03.SPA.bin\nSoftware upgrade starting asynchronously...",
+        "version": "17.9.4a",
+        "serial": "FJB2331A0D1",
+        "status": "Upgrading",
+        "ip": "10.250.252.100",
+        "time": "07/14/25 13:00:54"
+    },
+    {
+        "logbuf": "\n*** Running downloaded_script.py ***\nPlatform serial number(s): FJB2331A0D1\nPlatform software version: 17.9.4a\nDownloading http://10.250.252.1:8081/data...\nChecking http://10.250.252.1:8081/file/uploaded/cat9k_iosxe.17.15.03.SPA.bin\nSoftware upgrade starting asynchronously...",
+        "version": "17.9.4a",
+        "serial": "FJB2331A0D1",
+        "status": "Upgrading",
+        "ip": "10.250.252.100",
+        "time": "07/14/25 13:11:30"
+    }
+]

@@ -1,3 +1,12 @@
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.8"
+# dependencies = [
+#     "bottle",
+#     "waitress",
+# ]
+# ///
+
 """ ZTP API Web App
 This script implements a simple API to serve the ZTP data object, using the
 Bottle micro web framework and the Waitress HTTP server. There is a file serving
@@ -29,7 +38,7 @@ import bottle
 
 ##### CONSTANTS ################################################################
 
-BASE_URL = 'http://10.0.0.1:8080/file/'  # Default base URL
+BASE_URL = 'http://192.168.3.94:8081/file/'  # Default base URL
 UPLOAD_DIR = 'uploaded'  # Default upload folder
 HIDE = r'\..*|autoinstall|media'  # Folders to hide
 
@@ -389,4 +398,4 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s')
 
-    bottle.run(host='0.0.0.0', port=8080, server='waitress')
+    bottle.run(host='0.0.0.0', port=8081, server='waitress')
